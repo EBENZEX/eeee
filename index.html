@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f4ff;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img.logo {
+      height: 40px;
+    }
+    .profile-header {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .profile-header h2 {
+      margin-bottom: 5px;
+    }
+    .profile-img {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .profile-img img {
+      width: 180px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+    .info-box {
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .info-box table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .info-box td {
+      padding: 10px 5px;
+      border-bottom: 1px solid #ccc;
+    }
+    .info-box td.label {
+      font-weight: bold;
+    }
+    .ipk-badge {
+      background-color: #4CAF50;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Lambang_Universitas_Negeri_Medan.png" class="logo" alt="Logo UNIMED">
+  <div>JULIAN CAESAR
+  </div>
+</header>
+
+<div class="profile-header">
+  <h2>Selamat Siang, JULIAN CAESAR!</h2>
+  <p>Sistem Informasi Akademik Universitas Negeri Medan</p>
+</div>
+
+<div class="profile-img">
+  <img src="foto.png" alt="Foto Mahasiswa">
+</div>
+
+<div class="info-box">
+  <table>
+    <tr>
+      <td class="label">Tahun Akademik</td>
+      <td>2024/2025 Genap</td>
+    </tr>
+    <tr>
+      <td class="label">Semester</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td class="label">IPK</td>
+      <td><span class="ipk-badge">3,55</span></td>
+    </tr>
+    <tr>
+      <td class="label">SKS</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
