@@ -86,26 +86,79 @@
   <img src="foto.png" alt="Foto Mahasiswa">
 </div>
 
-<div class="info-box">
-  <table>
-    <tr>
-      <td class="label">Tahun Akademik</td>
-      <td>2024/2025 Genap</td>
-    </tr>
-    <tr>
-      <td class="label">Semester</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td class="label">IPK</td>
-      <td><span class="ipk-badge">3,55</span></td>
-    </tr>
-    <tr>
-      <td class="label">SKS</td>
-      <td>67</td>
-    </tr>
-  </table>
-</div>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Akademik</title>
+  <style>
+    /* Agar konten di tengah layar */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #eef2f3;
+      font-family: Arial, sans-serif;
+    }
+
+    .info-box {
+      background-color: #f9f9f9;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 320px;
+    }
+
+    .info-box table {
+      width: 100%;
+    }
+
+    .info-box .label {
+      font-weight: bold;
+      color: #444;
+      padding-bottom: 4px;
+    }
+
+    .info-box td {
+      padding: 8px 0;
+    }
+
+    .ipk-badge {
+      background-color: #4CAF50;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="info-box">
+    <table>
+      <tr>
+        <td class="label">Tahun Akademik</td>
+        <td>2024/2025 Genap</td>
+      </tr>
+      <tr>
+        <td class="label">Semester</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="label">IPK</td>
+        <td><span class="ipk-badge">3,55</span></td>
+      </tr>
+      <tr>
+        <td class="label">SKS</td>
+        <td>67</td>
+      </tr>
+    </table>
+  </div>
 
 </body>
+</html>
+
 </html>
